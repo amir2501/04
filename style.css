@@ -1,5 +1,4 @@
 :root {
-  --cream: hsl(30, 38%, 92%);
   --ligntGrey: hsl(228, 12%, 48%);
   --green: hsl(158, 36%, 37%);
   --white: hsl(0, 0%, 100%);
@@ -12,7 +11,7 @@
 }
 
 body {
-  background-color: var(--cream);
+  background-color: hsl(30, 38%, 92%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,7 +41,6 @@ body {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  font-size: 1.2rem;
 }
 
 .text {
@@ -72,6 +70,7 @@ body {
   letter-spacing: 0.5rem;
   margin-bottom: 1.8rem;
   text-transform: uppercase;
+  font-size: 1.2rem;
 }
 
 .preview-card .text p:last-of-type {
@@ -89,6 +88,7 @@ body {
   color: var(--ligntGrey);
   display: inline-flex;
   text-align: center;
+  font-size: 1.2rem;
 }
 
 .preview-card .price ins {
@@ -111,10 +111,6 @@ body {
   padding: 1.4rem 5.5rem;
   border-radius: 1rem;
   font-size: 1.4rem;
-}
-
-.preview-card > .text > a > img {
-  margin-right: 1rem;
 }
 
 .preview-card > .text > a > span::before {
